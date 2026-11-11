@@ -1,0 +1,141 @@
+{
+  "model": "mock-oracle",
+  "attempts": 1,
+  "too_easy_threshold": 0.67,
+  "run_at": "2026-10-21T12:02:41+00:00",
+  "overall_pass_rate": 1.0,
+  "flagged_too_easy": [
+    "SEC01",
+    "SEC02",
+    "SEC03",
+    "SEC04",
+    "SEC05",
+    "SEC06",
+    "SEC07",
+    "SEC08",
+    "SEC09",
+    "SEC10"
+  ],
+  "items": [
+    {
+      "id": "SEC01",
+      "topic": "One-time passwords: HOTP",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "254676",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC02",
+      "topic": "One-time passwords: TOTP",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "07081804",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC03",
+      "topic": "One-time passwords: time-step counter",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "41152263",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC04",
+      "topic": "Password strength: entropy",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "1.11",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC05",
+      "topic": "Hashing: birthday bound",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "5.06",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC06",
+      "topic": "Vulnerability scoring: CVSS v3.1 scope change",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "9.9",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC07",
+      "topic": "Authentication policy: NIST SP 800-63B-4",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "15",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC08",
+      "topic": "Password hashing: Argon2 parameters",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "2048",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC09",
+      "topic": "HOTP: modulo bias of dynamic truncation",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "2148",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "SEC10",
+      "topic": "Vulnerability scoring: CVSS v3.1 reflected XSS",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "6.1",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

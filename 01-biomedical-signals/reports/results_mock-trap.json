@@ -1,0 +1,130 @@
+{
+  "model": "mock-trap",
+  "attempts": 1,
+  "too_easy_threshold": 0.67,
+  "run_at": "2026-10-21T12:02:40+00:00",
+  "overall_pass_rate": 0.0,
+  "flagged_too_easy": [],
+  "items": [
+    {
+      "id": "A01",
+      "topic": "HRV time-domain: RMSSD",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "41.31",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "topic": "HRV time-domain: SDNN",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "24.36",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "topic": "HRV: pNN50 convention",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "28.6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "topic": "Heart rate: averaging pitfall",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "0.0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "topic": "Sampling: aliasing",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "60",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A06",
+      "topic": "Filtering: zero-phase band-pass",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "3.0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A07",
+      "topic": "Spectral analysis: frequency resolution",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A08",
+      "topic": "Timing resolution of R-peak detection",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "2.0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A09",
+      "topic": "Poincare plot: SD1",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "31.22",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "A10",
+      "topic": "QRS detector design: window scaling",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "30",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

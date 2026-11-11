@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="20" y="24" font-size="16" font-family="Arial, sans-serif" fill="#111">Software Testing — Pass Rate</text>
+  <text x="20" y="42" font-size="11" font-family="Arial, sans-serif" fill="#555">Mock harness results (included artifacts): oracle vs trap</text>
+  <line x1="40" y1="150" x2="400" y2="150" stroke="#ccc"/>
+  <rect x="110" y="60" width="80" height="90" fill="#16a34a" rx="6"/><text x="150" y="54" text-anchor="middle" font-size="12">100%</text><text x="150" y="168" text-anchor="middle" font-size="12">mock-oracle</text>
+  <rect x="230" y="150" width="80" height="0" fill="#dc2626" rx="6"/><text x="270" y="144" text-anchor="middle" font-size="12">0%</text><text x="270" y="168" text-anchor="middle" font-size="12">mock-trap</text>
+</svg>

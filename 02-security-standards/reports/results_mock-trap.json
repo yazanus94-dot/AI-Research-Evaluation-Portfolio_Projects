@@ -1,0 +1,130 @@
+{
+  "model": "mock-trap",
+  "attempts": 1,
+  "too_easy_threshold": 0.67,
+  "run_at": "2026-10-21T12:02:41+00:00",
+  "overall_pass_rate": 0.0,
+  "flagged_too_easy": [],
+  "items": [
+    {
+      "id": "SEC01",
+      "topic": "One-time passwords: HOTP",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "287922",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC02",
+      "topic": "One-time passwords: TOTP",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "7081804",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC03",
+      "topic": "One-time passwords: time-step counter",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "41152264",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC04",
+      "topic": "Password strength: entropy",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "30.0",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC05",
+      "topic": "Hashing: birthday bound",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "4.29",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC06",
+      "topic": "Vulnerability scoring: CVSS v3.1 scope change",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "8.8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC07",
+      "topic": "Authentication policy: NIST SP 800-63B-4",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC08",
+      "topic": "Password hashing: Argon2 parameters",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "64",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC09",
+      "topic": "HOTP: modulo bias of dynamic truncation",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "2147",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "SEC10",
+      "topic": "Vulnerability scoring: CVSS v3.1 reflected XSS",
+      "pass_rate": 0.0,
+      "too_easy": false,
+      "attempts": [
+        {
+          "extracted": "5.4",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

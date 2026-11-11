@@ -1,0 +1,141 @@
+{
+  "model": "mock-oracle",
+  "attempts": 1,
+  "too_easy_threshold": 0.67,
+  "run_at": "2026-10-21T12:02:40+00:00",
+  "overall_pass_rate": 1.0,
+  "flagged_too_easy": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10"
+  ],
+  "items": [
+    {
+      "id": "A01",
+      "topic": "HRV time-domain: RMSSD",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "44.16",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "topic": "HRV time-domain: SDNN",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "26.04",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A03",
+      "topic": "HRV: pNN50 convention",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "25.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "topic": "Heart rate: averaging pitfall",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "8.33",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "topic": "Sampling: aliasing",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "30",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A06",
+      "topic": "Filtering: zero-phase band-pass",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "6.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A07",
+      "topic": "Spectral analysis: frequency resolution",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "7",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A08",
+      "topic": "Timing resolution of R-peak detection",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "4.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A09",
+      "topic": "Poincare plot: SD1",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "33.71",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "A10",
+      "topic": "QRS detector design: window scaling",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "54",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

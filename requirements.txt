@@ -1,0 +1,5 @@
+# Minimal dependencies for running verifiers, validation, and tests
+# (standard library is sufficient for most components; extras below support biomedical signal verifiers)
+numpy>=1.24
+scipy>=1.10
+pytest>=7.0

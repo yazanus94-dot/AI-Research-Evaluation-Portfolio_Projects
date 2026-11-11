@@ -1,0 +1,141 @@
+{
+  "model": "mock-oracle",
+  "attempts": 1,
+  "too_easy_threshold": 0.67,
+  "run_at": "2026-10-21T12:02:41+00:00",
+  "overall_pass_rate": 1.0,
+  "flagged_too_easy": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "items": [
+    {
+      "id": "B01",
+      "topic": "Test design: three-value BVA",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "6",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "topic": "Test reliability: flaky suites",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "77.8",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "topic": "Versioning: SemVer precedence",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "1.0.0-alpha, 1.0.0-alpha.1, 1.0.0-alpha.beta, 1.0.0-beta, 1.0.0-beta.2, 1.0.0-beta.11, 1.0.0-rc.1, 1.0.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "topic": "Test design: two-value BVA coverage",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "75.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "topic": "Test design: three-value BVA coverage",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "50.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "topic": "API testing: duplicate JSON keys",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "unpredictable",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "topic": "Combinatorial testing: pairwise",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "9",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "topic": "Test adequacy: mutation score",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "84.0",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "topic": "Flaky tests: confidence from reruns",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "59",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "topic": "Reliability: SLO error budget",
+      "pass_rate": 1.0,
+      "too_easy": true,
+      "attempts": [
+        {
+          "extracted": "43.2",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

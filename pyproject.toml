@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-research-evaluation-portfolio"
+version = "0.1.0"
+description = "Portfolio of AI research evaluation datasets and verifiable assessment artifacts."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yazan Aljabari"}]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = [
+  "01-biomedical-signals/tests",
+  "02-security-standards/tests",
+  "03-software-testing/tests",
+]
+pythonpath = [
+  "01-biomedical-signals",
+  "02-security-standards",
+  "03-software-testing",
+]
